@@ -29,6 +29,14 @@ export default function App() {
       <View style={styles.box}>
         <Text>6</Text>
       </View>
+
+      <View style={styles.box}>
+        <Text>7</Text>
+      </View>
+
+      <View style={styles.box}>
+        <Text>8</Text>
+      </View>
     </ScrollView>
   );
 }
@@ -40,11 +48,12 @@ const styles = StyleSheet.create({
 
   content: {
     flexDirection: 'column',
-    gap: 20,
   },
 
   box: {
     backgroundColor: '#548945',
+    borderWidth:5,
+    borderColor: '#592312',
     width: 150,
     height: 150,
     padding: 10,
